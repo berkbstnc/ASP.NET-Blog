@@ -11,29 +11,6 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EFCategoryRepository : GenericRepository<Category>, ICategoryDal
     {
-        public void Delete(Blog t)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Insert(Blog t)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(Blog t)
-        {
-            throw new NotImplementedException();
-        }
-
-        Blog IGenericDal<Blog>.GetByID(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<Blog> IGenericDal<Blog>.GetListAll()
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

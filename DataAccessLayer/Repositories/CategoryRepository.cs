@@ -7,35 +7,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Repositories
+namespace DataAccessLayer.Respositories
 {
     public class CategoryRepository : ICategoryDal
     {
+
         Context c = new Context();
 
-        public void AddCategory(Category category)
+        public void Insert(Category category)
         {
             c.Add(category);
             c.SaveChanges();
         }
 
-        public void DeleteCategory(Category category)
+        public void Delete(Category category)
         {
             c.Remove(category);
             c.SaveChanges();
         }
 
-        public Category GetById(int id)
+        public List<Category> GetListAll()
         {
-            return c.Categories.Find(id);
+            throw new NotImplementedException();
         }
 
-        public List<Category> ListAllCategory()
+        public Category GetByID(int Id)
+        {
+            return c.Categories.Find(Id);
+        }
+
+        public List<Category> ListAll()
         {
             return c.Categories.ToList();
         }
 
-        public void UpdateCategory(Category category)
+        public void Update(Category category)
         {
             c.Update(category);
             c.SaveChanges();

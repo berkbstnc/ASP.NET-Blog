@@ -7,37 +7,42 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Repositories
+namespace DataAccessLayer.Respositories
 {
     public class BlogRepository : IBlogDal
     {
-        public void AddBlog(Blog blog)
+        public void Insert(Blog blog)
         {
             using var c = new Context();
             c.Add(blog);
             c.SaveChanges();
         }
 
-        public void DeleteBlog(Blog blog)
+        public void Delete(Blog blog)
         {
             using var c = new Context();
             c.Remove(blog);
             c.SaveChanges();
         }
 
-        public Blog GetById(int id)
+        public List<Blog> GetListAll()
         {
-            using var c = new Context();
-            return c.Blogs.Find(id);
+            throw new NotImplementedException();
         }
 
-        public List<Blog> ListAllBlog()
+        public Blog GetByID(int Id)
+        {
+            using var c = new Context();
+            return c.Blogs.Find(Id);
+        }
+
+        public List<Blog> ListAll()
         {
             using var c = new Context();
             return c.Blogs.ToList();
         }
 
-        public void UpdateBlog(Blog blog)
+        public void Update(Blog blog)
         {
             using var c = new Context();
             c.Update(blog);

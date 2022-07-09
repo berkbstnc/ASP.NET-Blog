@@ -5819,11 +5819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\CoreDemo\\DataAccessLayer\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5840,8 +5840,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ASUS\\Desktop\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\CoreDemo\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }

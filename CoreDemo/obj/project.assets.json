@@ -7212,11 +7212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\CoreDemo\\CoreDemo\\CoreDemo.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\CoreDemo\\CoreDemo.csproj",
       "projectName": "CoreDemo",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\CoreDemo\\CoreDemo\\CoreDemo.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\CoreDemo\\CoreDemo.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\CoreDemo\\CoreDemo\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\CoreDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7233,14 +7233,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ASUS\\Desktop\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\ASUS\\Desktop\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\ASUS\\Desktop\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\CoreDemo\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\ASP.NET-Blog\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
