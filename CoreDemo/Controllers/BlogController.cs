@@ -20,6 +20,8 @@ namespace CoreDemo.Controllers
         }
         public IActionResult BlogReadAll(int id)
         {
+            ViewBag.i = "Böyle bir yorum yok. İlk yorumu siz yazın.";
+            ViewBag.i = id;
             var values = bm.GetBlogByID(id);
             return View(values);
         }
