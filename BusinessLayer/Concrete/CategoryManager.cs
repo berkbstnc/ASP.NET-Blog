@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class CategoryManager : ICategoryService  
+    public class CategoryManager : ICategoryService
     {
 
         ICategoryDal _categoryDal;
@@ -24,16 +24,6 @@ namespace BusinessLayer.Concrete
             _categoryDal.Insert(category);
         }
 
-        public void CategoryDelete(Category category)
-        {
-            _categoryDal.Delete(category);
-        }
-
-        public void CategoryUpdate(Category category)
-        {
-            _categoryDal.Update(category);
-        }
-
         public Category GetByID(int id)
         {
             return _categoryDal.GetByID(id);
@@ -42,6 +32,21 @@ namespace BusinessLayer.Concrete
         public List<Category> GetListAll()
         {
             return _categoryDal.GetListAll();
+        }
+
+        public void TAdd(Category t)
+        {
+            _categoryDal.Insert(t);
+        }
+
+        public void TDelete(Category t)
+        {
+            _categoryDal.Delete(t);
+        }
+
+        public void TUpdate(Category t)
+        {
+            _categoryDal.Update(t);
         }
     }
 }
